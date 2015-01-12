@@ -1,0 +1,10 @@
+<solr persistent="true" sharedLib="lib">
+     <cores adminPath="/admin/cores">
+         <core name="ckan-schema-2.0" instanceDir="core0">
+             <property name="dataDir" value="/var/lib/solr/data/core0" />
+         </core>
+         <core name="ckan-schema-1.4" instanceDir="core1">
+             <property name="dataDir" value="/var/lib/solr/data/core1" />
+         </core>
+     </cores>
+ </solr>
